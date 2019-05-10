@@ -5,7 +5,7 @@ import Header from './components/header_footer/Header'
 function App() {
   return (
     <div className="App">
-    hello world
+    navbar disappeared
     <Header />
     </div>
   );
