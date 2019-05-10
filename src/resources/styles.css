@@ -3,8 +3,7 @@ body {
     padding:0;
     margin:0;
     font-family: 'Roboto', sans-serif;
-    height: 1000px;
-    background-color: blue;
+    height: 2000px;
 }
 
 .font_audiowide {
@@ -89,7 +88,7 @@ footer .footer_copyright {
 
 .artist_name {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     width: 400px;
     height: 160px;
