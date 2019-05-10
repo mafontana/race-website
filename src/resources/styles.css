@@ -108,6 +108,10 @@ footer .footer_copyright {
     text-transform: uppercase;
 }
 
+.artist_name .wrapper:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
 /*====================
         COUNTDOWN
 ======================*/
