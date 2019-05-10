@@ -8,9 +8,11 @@ const Featured = () => {
         <Carrousel />
             
             <div className="artist_name">
-                <div className="wrapper">
+            <a href="http://example.com" style={{textDecoration: 'none'}}>
+                <div className="wrapper" onClick={()=> {console.log("you clicked")}}>
                 Register Here
                 </div>
+                </a>
             </div>
         <Countdown />
         </div>
