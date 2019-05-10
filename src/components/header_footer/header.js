@@ -15,7 +15,11 @@ class Header extends Component {
                     padding: '10px 0px'
                 }}
             >
-            header
+            <Toolbar>
+                <div className="header_logo">
+                    <div className="font_audiowide header_logo_venue">Colorado Cycling Challenge</div>
+                </div>
+            </Toolbar>
             
             </AppBar>
         );
