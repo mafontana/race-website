@@ -6,7 +6,6 @@ import Featured from './components/featured'
 function App() {
   return (
     <div className="App">
-    navbar disappeared
     <Header />
     <Featured />
     </div>

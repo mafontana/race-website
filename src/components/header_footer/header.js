@@ -12,7 +12,7 @@ class Header extends Component {
         super(props);
         this.state = {
             drawerOpen: false,
-            headerShow: true,
+            headerShow: false,
         }
       }
 
