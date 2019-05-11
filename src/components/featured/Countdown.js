@@ -6,17 +6,23 @@ class Countdown extends Component {
     constructor(props) {
         super(props);
         this.state = {
-        
+            deadline: 'Dec, 31, 2021',
+            days: '0',
+            hours: '0',
+            minutes: '0',
+            seconds: '0',
         }
       }  
     
 
-      getTimeUntil(){
-          
+      getTimeUntil(deadline){
+        const time = Date.parse(deadline) - Date.parse(new Date())
+        console.log(time)
+
       }
 
       componentDidMount(){
-
+        setInterval(()=> this.getTimeUntil(this.state.deadline),1000)
       }
     
     
