@@ -2,6 +2,24 @@ import React, { Component } from 'react';
 import Slide from 'react-reveal/Slide'
 
 class Countdown extends Component {
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+        
+        }
+      }  
+    
+
+      getTimeUntil(){
+          
+      }
+
+      componentDidMount(){
+
+      }
+    
+    
     render() {
         return (
             <Slide left delay={1000}>
