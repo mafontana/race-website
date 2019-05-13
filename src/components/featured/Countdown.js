@@ -13,7 +13,6 @@ class Countdown extends Component {
             seconds: '0',
         }
       }  
-    
 
       getTimeUntil(deadline){
         const time = Date.parse(deadline) - Date.parse(new Date())
@@ -32,7 +31,6 @@ class Countdown extends Component {
                 seconds
             })
         }
-
       }
 
       componentDidMount(){
@@ -82,8 +80,6 @@ class Countdown extends Component {
                     </div>
                     </div>
                 </div>
-            
-            
             </Slide>
         );
     }
