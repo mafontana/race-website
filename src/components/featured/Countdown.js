@@ -6,7 +6,7 @@ class Countdown extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            deadline: 'Dec, 31, 2021',
+            deadline: 'May, 13, 2020',
             days: '0',
             hours: '0',
             minutes: '0',
@@ -17,7 +17,21 @@ class Countdown extends Component {
 
       getTimeUntil(deadline){
         const time = Date.parse(deadline) - Date.parse(new Date())
-        console.log(time)
+        if(time <0) {
+            console.log('date passed')
+        } else {
+            const seconds = Math.floor((time/(1000)%60))
+            const minutes = Math.floor((time/(1000)/(60)%60))
+            const hours = Math.floor((time/(1000*60*60))%24)
+            const days = Math.floor(time/(1000*60*60*24))
+
+            this.setState({
+                days,
+                hours,
+                minutes,
+                seconds
+            })
+        }
 
       }
 
@@ -36,7 +50,7 @@ class Countdown extends Component {
                 <div className="countdown_bottom">
                     <div className="countdown_item">
                         <div className="countdown_time">
-                            23
+                            {this.state.days}
                         </div>
                         <div className="countdown_tag">
                             Days
@@ -44,7 +58,7 @@ class Countdown extends Component {
                     </div>
                     <div className="countdown_item">
                     <div className="countdown_time">
-                        2
+                        {this.state.hours}
                     </div>
                     <div className="countdown_tag">
                         Hours
@@ -52,7 +66,7 @@ class Countdown extends Component {
                     </div>
                     <div className="countdown_item">
                         <div className="countdown_time">
-                            10
+                            {this.state.minutes}
                         </div>
                         <div className="countdown_tag">
                             Minutes
@@ -60,7 +74,7 @@ class Countdown extends Component {
                     </div>
                     <div className="countdown_item">
                         <div className="countdown_time">
-                            45
+                            {this.state.seconds}
                         </div>
                         <div className="countdown_tag">
                             Seconds
