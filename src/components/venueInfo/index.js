@@ -17,14 +17,41 @@ const VenueInfo = () => {
                                     style={{
                                         background: `url(${icon_calendar})`
                                     }}
-                                
                                 >
-                                
+                                </div>
+                                <div className="vn_title">
+                                    Race Date & Time
+                                </div>
+                                <div className="vn_desc">
+                                    May 13, 2020 <br></br>
+                                    8:00 am
                                 </div>
                             </div>
                         </div>
                     </div>
                 
+                    <div className="vn_item">
+                    <div className="vn_outer">
+                        <div className="vn_inner">
+                            <div className="vn_icon_square bck_yellow"></div>
+                            <div className="vn_icon"
+                                style={{
+                                    background: `url(${icon_location})`
+                                }}
+                            >
+                            </div>
+                            <div className="vn_title">
+                                Location
+                            </div>
+                            <div className="vn_desc">
+                                 Mile High Velo<br></br>
+                                 Denver, C0
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 </div>
             
             </div>
