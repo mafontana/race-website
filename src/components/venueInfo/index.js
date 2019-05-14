@@ -1,4 +1,5 @@
 import React from 'react';
+import Zoom from 'react-reveal/Zoom';
 
 import icon_calendar from '../../resources/images/icons/calendar.png'
 import icon_location from '../../resources/images/icons/location.png'
@@ -9,7 +10,8 @@ const VenueInfo = () => {
         <div className="bck_black">
             <div className="center_wrapper">
                 <div className="vn_wrapper">
-                    <div className="vn_item">
+                   <Zoom duration={500}>
+                        <div className="vn_item">
                         <div className="vn_outer">
                             <div className="vn_inner">
                                 <div className="vn_icon_square bck_red"></div>
@@ -29,8 +31,11 @@ const VenueInfo = () => {
                             </div>
                         </div>
                     </div>
+                   
+                   </Zoom>
                 
-                    <div className="vn_item">
+                <Zoom duration={500} delay={500}>
+                <div className="vn_item">
                     <div className="vn_outer">
                         <div className="vn_inner">
                             <div className="vn_icon_square bck_yellow"></div>
@@ -40,17 +45,19 @@ const VenueInfo = () => {
                                 }}
                             >
                             </div>
-                            <div className="vn_title">
-                                Location
-                            </div>
-                            <div className="vn_desc">
-                                 Mile High Velo<br></br>
-                                 Denver, C0
-                                
-                            </div>
+                        <div className="vn_title">
+                            Location
+                        </div>
+                        <div className="vn_desc">
+                             Mile High Velo<br></br>
+                             Denver, C0
+                            
                         </div>
                     </div>
                 </div>
+            </div>
+                
+                </Zoom>
 
                 </div>
             
