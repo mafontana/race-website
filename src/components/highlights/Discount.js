@@ -18,14 +18,14 @@ const Discount = () => {
 
 
 
+            <Slide right>
             <div className="discount_description">
                 <h3>Buy race entry before August 1 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             
                 <div>button</div>
-            
-            
             </div>
+            </Slide>
 
 
 
