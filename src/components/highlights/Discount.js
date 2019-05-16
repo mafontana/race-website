@@ -10,7 +10,10 @@ const Discount = () => {
                     <span>30%</span>
                     <span>OFF</span>
                 </div>
-
+            <div className="discount_description">
+                <h3>Buy race entry before August 1 </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
 
 
 
