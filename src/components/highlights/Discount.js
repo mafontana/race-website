@@ -48,7 +48,7 @@ class Discount extends Component {
                             text="Register Now"
                             bck="#ffa800"
                             color="#ffffff"
-                            link="www.google.com"
+                            link="http://google.com"
                         />
                     </div>
                 </Slide>
