@@ -5,12 +5,12 @@ import TicketIcon from '../../resources/images/icons/ticket.png'
 const MyButton = (props) => {
     return (
         <Button
-            href="google.com"
+            href={props.link}
             variant="contained"
             size="small"
             style={{
-                background: 'red ',
-                color: 'white'
+                background: props.bck,
+                color: props.color
             }}
         >
         
