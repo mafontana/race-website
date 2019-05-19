@@ -3,6 +3,15 @@ import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 
 class Discount extends Component {
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+           
+        }
+      }
+    
+    
     render() {
         return (
             <div className="center_wrapper">
