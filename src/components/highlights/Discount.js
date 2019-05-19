@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 import { timeout } from 'q';
+import MyButton from '../utils/MyButton'
 
 class Discount extends Component {
     
@@ -43,7 +44,7 @@ class Discount extends Component {
                     <div className="discount_description">
                         <h3>Buy race entry before August 1 </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        <div>button</div>
+                        <MyButton/>
                     </div>
                 </Slide>
             </div> 

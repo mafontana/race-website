@@ -13,13 +13,14 @@ const MyButton = (props) => {
                 color: 'white'
             }}
         >
+        
             <img 
                 src={TicketIcon}
                 className="iconImage"
                 alt="icon_button"
             
             />
-        
+            Button
         </Button>
     );
 };
