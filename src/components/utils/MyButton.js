@@ -20,7 +20,7 @@ const MyButton = (props) => {
                 alt="icon_button"
             
             />
-            Button
+            {props.text}
         </Button>
     );
 };

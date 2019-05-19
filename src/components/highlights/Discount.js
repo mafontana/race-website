@@ -44,7 +44,12 @@ class Discount extends Component {
                     <div className="discount_description">
                         <h3>Buy race entry before August 1 </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        <MyButton/>
+                        <MyButton
+                            text="Register Now"
+                            bck="#ffa800"
+                            color="#ffffff"
+                            link="www.google.com"
+                        />
                     </div>
                 </Slide>
             </div> 
