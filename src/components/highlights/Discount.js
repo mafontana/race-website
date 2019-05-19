@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
+import { timeout } from 'q';
 
 class Discount extends Component {
     
@@ -18,8 +19,12 @@ class Discount extends Component {
                 discountStart: this.state.discountStart + 1 
             })
         }
+    }
 
-
+    componentDidUpdate(){
+        setTimeout(()=>{
+            this.percentage()
+        },30)
     }
     
     render() {
