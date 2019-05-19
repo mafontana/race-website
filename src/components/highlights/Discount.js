@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 
-const Discount = () => {
-    return (
-        <div className="center_wrapper">
+class Discount extends Component {
+    render() {
+        return (
+            <div className="center_wrapper">
             <div className="discount_wrapper">
                 <Fade>
                     <div className="discount_porcentage">
@@ -21,7 +22,9 @@ const Discount = () => {
                 </Slide>
             </div> 
         </div>
-    );
-};
+        );
+    }
+}
 
 export default Discount;
+
