@@ -13,7 +13,6 @@ const MyButton = (props) => {
                 color: props.color
             }}
         >
-        
             <img 
                 src={TicketIcon}
                 className="iconImage"
